@@ -1,0 +1,19 @@
+artifact_path: "file:D:/_ML \u0438\u043D\u0436\u0435\u043D\u0435\u0440/\u041F\u0440\
+  \u043E\u0435\u043A\u0442\u044B/mlflow/\u0441\u043F\u0440\u0438\u043D\u0442 2/\u0441\
+  \u043F\u0440\u0438\u043D\u04422\u0443\u0440\u043E\u043A13/mle-project-sprint-2-v006/mlflow_local/artifacts_users_charn/1/models/m-c08085787bad43a989ac0e237169afb2/artifacts"
+flavors:
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - scipy.interpolate._bsplines.BSpline
+    - scipy.interpolate._bsplines._BSpline
+mlflow_version: 3.17.2
+model_id: m-c08085787bad43a989ac0e237169afb2
+model_size_bytes: 418957
+model_uuid: m-c08085787bad43a989ac0e237169afb2
+prompts: null
+run_id: 8dae96cee6e54e66b0932024890ddf2a
+utc_time_created: '2026-11-03 19:29:40.833495'
