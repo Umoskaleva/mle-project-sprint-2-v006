@@ -1,0 +1,27 @@
+artifact_path: "file:D:/_ML \u0438\u043D\u0436\u0435\u043D\u0435\u0440/\u041F\u0440\
+  \u043E\u0435\u043A\u0442\u044B/mlflow/\u0441\u043F\u0440\u0438\u043D\u0442 2/\u0441\
+  \u043F\u0440\u0438\u043D\u04422\u0443\u0440\u043E\u043A13/mle-project-sprint-2-v006/mlflow_local/artifacts_users_charn/1/models/m-04188799148f4f6c890fb6b1e13a84fc/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.6
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - scipy.interpolate._bsplines.BSpline
+    - scipy.interpolate._bsplines._BSpline
+mlflow_version: 3.17.2
+model_id: m-04188799148f4f6c890fb6b1e13a84fc
+model_size_bytes: 512294
+model_uuid: m-04188799148f4f6c890fb6b1e13a84fc
+prompts: null
+run_id: 9aee686d4a2e42b08d9f26cab339d1c6
+utc_time_created: '2026-11-04 16:37:37.312875'
