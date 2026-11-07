@@ -177,5 +177,7 @@ outputs/
 basic_auth.db
 *.pymon
 
+lesson_7_ex11_automated_feature_generation.py
+lesson_7_ex11_3.py
 
 

@@ -1,4 +1,4 @@
-# Проект: churn_model_uliana (mle-project-sprint-2-v005)
+# Проект: churn_model_uliana (mle-project-sprint-2-v006)
 
 ## Описание
 Проект по работе с моделью предсказания оттока клиентов (**churn classification**).
@@ -7,7 +7,27 @@
 
 ## Структура проекта
 ```
+# mle-project-sprint-2-v006
 
+## 📂 Структура проекта
+
+```text
+.
+├── mlflow_local/
+│   └── artifacts_users_charn/
+│       └── 1/                      # Артефакты экспериментов MLflow
+├── notebooks/
+│   └── postgres_connection_mybase.ipynb  # Ноутбук с подключением к БД и анализом
+├── scripts/
+│   ├── run_mlflow_server_local_users_churn.sh   # Скрипт запуска локального сервера MLflow
+│   └── run_mlflow_server_postgresql.sh          # Скрипт запуска MLflow с бэкендом PostgreSQL
+├── src/                            # Исходный код проекта
+│   └── ...
+├── .gitignore                      # Файлы и папки, исключаемые из Git
+├── README.md                       # Документация проекта
+├── params.yaml                     # Гиперпараметры и конфигурация модели
+├── python_env.yaml                 # Описание окружения Python (версия, зависимости)
+└── requirements.txt                # Список Python-библиотек для установки
 ```
 
 ## Установка

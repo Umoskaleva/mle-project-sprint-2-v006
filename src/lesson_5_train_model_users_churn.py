@@ -22,7 +22,7 @@ from sklearn.metrics import (
     roc_auc_score,
 )
 
-# 1. ИМПОРТИРУЕМ ФУНКЦИЮ ИЗ ВАШЕГО ФАЙЛА
+# 1. ИМПОРТИРУЕМ ФУНКЦИЮ ИЗ ФАЙЛА
 from lesson_5_preprocessing_users_churn import load_clean_users_churn
 
 # ============================================================
