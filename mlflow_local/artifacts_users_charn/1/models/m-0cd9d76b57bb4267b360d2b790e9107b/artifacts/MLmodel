@@ -1,0 +1,48 @@
+artifact_path: "file:D:/_ML \u0438\u043D\u0436\u0435\u043D\u0435\u0440/\u041F\u0440\
+  \u043E\u0435\u043A\u0442\u044B/mlflow/\u0441\u043F\u0440\u0438\u043D\u0442 2/\u0441\
+  \u043F\u0440\u0438\u043D\u04422\u0443\u0440\u043E\u043A13/mle-project-sprint-2-v006/mlflow_local/artifacts_users_charn/1/models/m-0cd9d76b57bb4267b360d2b790e9107b/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.6
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.17.2
+model_id: m-0cd9d76b57bb4267b360d2b790e9107b
+model_size_bytes: 18103
+model_uuid: m-0cd9d76b57bb4267b360d2b790e9107b
+prompts: null
+run_id: 76daebd704d84f1394fad9dc7a5185dd
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "type", "required": true}, {"type": "string",
+    "name": "payment_method", "required": true}, {"type": "string", "name": "internet_service",
+    "required": true}, {"type": "string", "name": "gender", "required": true}, {"type":
+    "string", "name": "paperless_billing", "required": true}, {"type": "string", "name":
+    "online_security", "required": true}, {"type": "string", "name": "online_backup",
+    "required": true}, {"type": "string", "name": "device_protection", "required":
+    true}, {"type": "string", "name": "tech_support", "required": true}, {"type":
+    "string", "name": "streaming_tv", "required": true}, {"type": "string", "name":
+    "streaming_movies", "required": true}, {"type": "string", "name": "partner", "required":
+    true}, {"type": "string", "name": "dependents", "required": true}, {"type": "string",
+    "name": "multiple_lines", "required": true}, {"type": "double", "name": "monthly_charges",
+    "required": true}, {"type": "double", "name": "total_charges", "required": true},
+    {"type": "long", "name": "senior_citizen", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-11 09:51:08.485996'
