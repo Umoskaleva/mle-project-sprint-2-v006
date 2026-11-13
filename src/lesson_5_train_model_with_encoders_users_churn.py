@@ -1,8 +1,11 @@
 # ============================================================
-# lesson_6_logreg_with_encoders.py
+# lesson_5_train_model_with_encoders_users_churn.py
+# Задача отока клиентов
 # Обучение LogisticRegression на признаках, полученных энкодерами.
 # Без утечки: препроцессор обучается только на X_train.
 # Регистрация модели в MLflow Model Registry (локальные артефакты).
+# Признаки удаляем при обучениие: "id", "customer_id", "begin_date", "end_date", "target"
+# Цель target
 # ============================================================
 
 import os
@@ -56,7 +59,7 @@ TARGET_COL = "target"
 TEST_SIZE = 0.2
 RANDOM_STATE = 42
 
-# оставляем как есть: id/customer_id/даты не используем, target — цель
+# id/customer_id/даты удаляем, target — цель
 DROP_COLS = ["id", "customer_id", "begin_date", "end_date", TARGET_COL]
 
 # категориальные признаки
